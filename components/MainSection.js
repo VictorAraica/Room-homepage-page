@@ -2,11 +2,11 @@ import Paragraph from "./Paragraph";
 
 export default function MainSection({ data }) {
   return (
-    <div className="col-span-2 xl:mt-12 flex items-center justify-center">
-      <div className="w-10/12 xl:w-3/4 ">
+    <div className="col-span-2 xl:mt-11 flex items-center justify-center">
+      <div className="w-10/12 xl:w-3/4 m-4">
         <h1
           style={{ fontFamily: "League Spartan, sans-serif" }}
-          className="text-5xl font-bold mb-7 "
+          className="text-5xl font-bold mb-7"
         >
           {data.title}
         </h1>
