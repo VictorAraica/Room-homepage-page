@@ -12,7 +12,7 @@ export default function MainSection({ data }) {
         </h1>
         <Paragraph>{data.paragraph}</Paragraph>
         <button className="flex content-center items-center mt-6 tracking-widest font-semibold text-lg hover:opacity-50">
-          SHOP NOW <img src="/icons/icon-arrow.svg" className="ml-6 " />
+          SHOP NOW <img src="/icons/icon-arrow.svg" className="ml-6" />
         </button>
       </div>
     </div>

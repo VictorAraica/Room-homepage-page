@@ -3,7 +3,7 @@ import Paragraph from "./Paragraph";
 export default function About() {
   return (
     <div className="col-span-2 flex flex-col justify-center items-center">
-      <div className="w-4/5 xl:m-4">
+      <div className="w-4/5 xl:m-7">
         <h2
           style={{ fontFamily: "League Spartan, sans-serif" }}
           className="tracking-wide uppercase text-xl font-bold text-black mb-4 content-center"
