@@ -1,0 +1,28 @@
+.link {
+    color: white;
+    position: relative;
+    font-weight: 600;
+}
+
+@media (max-width: 1280px) {
+    .link {
+        color: black;
+    }
+}
+
+.link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 17px;
+    height: 3px;
+    background-color: white;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.link:hover::after {
+    opacity: 1;
+}
